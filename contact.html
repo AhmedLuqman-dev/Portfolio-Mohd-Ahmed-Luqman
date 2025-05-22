@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me - Mohd Ahmed Luqman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mohd Ahmed Luqman</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html" class="active">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="content">
+      <h2>Contact Me</h2>
+      <form action="mailto:ahmedluqman680@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Send Email</button>
+      </form>
+      <h3>Or message me on WhatsApp:</h3>
+      <a href="https://wa.me/7993511641" target="_blank" class="whatsapp-button">Chat on WhatsApp</a>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
