@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Mohd Ahmed Luqman</h1>
+    <h1>MOHD AHMED LUQMAN</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -18,20 +18,40 @@
       </ul>
     </nav>
   </header>
-  <main class="container">
-    <section class="content">
-      <h2>Projects</h2>
-      <p>Here are some of the projects I have worked on:</p>
-      <br>
-      <ul>
-        <li>Portfolio Website (this site!)</li> 
-        <li>Currency convertor </li>
-        <li>Basic Web Development projects</li>
-        <li>App Development loading page</li>
-        <li>IOT Based Fall Detection System using ESP8266 & MPU6050</li>
-      </ul>
-    </section>
-  </main>
+    <div class="theme-toggle" onclick="toggleTheme()">
+  <img src="https://img.icons8.com/ios-filled/50/ffffff/light-on.png" alt="Toggle Theme" id="bulb-icon">
+</div>
+  
+
+<main class="container">
+  <section class="content">
+    <h2>Projects</h2>
+    <p>Here are some of the projects I have worked on:</p>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal responsive portfolio website showcasing skills, projects, and certificates. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Resume Classifier AI</h3>
+        <p>AI model that classifies resumes based on job-fit using machine learning techniques. Built using Python and scikit-learn.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Interactive Resume Builder</h3>
+        <p>Web-based tool to create ATS-friendly resumes and export them as PDF. Designed for usability and customization.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>IoT Fall Detection System</h3>
+        <p>Real-time fall detection using ESP8266 and MPU6050 accelerometer. Sends alerts via IoT protocols to caregivers.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
   <script src="script.js"></script>
 </body>
 </html>
